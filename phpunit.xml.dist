@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+	<testsuites>
+		<testsuite name="Silex Google Auth Test Suite">
+			<directory>./tests</directory>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist>
+			<directory>./src</directory>
+		</whitelist>
+	</filter>
+	<php>
+		<env name="test" value="1" />
+		<ini name="error_reporting" value="32767" />
+		<ini name="display_errors" value="1" />
+		<ini name="display_startup_errors" value="1" />
+	</php>
+</phpunit>
