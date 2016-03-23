@@ -1,0 +1,27 @@
+{
+	"name": "shineunited/silexgoogleauth",
+	"type": "library",
+	"keywords": ["silex"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.0",
+		"shineunited/silexcommon": "*@dev",
+		"doctrine/dbal": "^2.5",
+		"gigablah/silex-oauth": "~1.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.8",
+		"symfony/browser-kit": "^3.0",
+		"symfony/css-selector": "^3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"ShineUnited\\Silex\\GoogleAuth\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"ShineUnited\\Silex\\GoogleAuth\\Tests\\": "tests/"
+		}
+	}
+}
