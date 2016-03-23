@@ -5,6 +5,7 @@ namespace ShineUnited\Silex\GoogleAuth;
 use ShineUnited\Silex\Common\Application as BaseApplication;
 
 use Gigablah\Silex\OAuth\OAuthServiceProvider;
+use Silex\Application\SecurityTrait;
 use Silex\Provider\SecurityServiceProvider;
 use Silex\Provider\SessionServiceProvider;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler;
